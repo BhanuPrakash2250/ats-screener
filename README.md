@@ -25,21 +25,17 @@
 <p align="center">
   <a href="https://ats-screener.vercel.app">Live App</a> &bull;
   <a href="https://ats-screener.vercel.app/docs">Documentation</a> &bull;
-  <a href="https://github.com/sunnypatell/ats-screener/issues">Issues</a> &bull;
-  <a href="https://github.com/sunnypatell/ats-screener/blob/main/CONTRIBUTING.md">Contribute</a>
+  <a href="https://github.com/BhanuPrakash2250/ats-screener/issues">Issues</a> &bull;
+  <a href="https://github.com/BhanuPrakash2250/ats-screener/blob/main/CONTRIBUTING.md">Contribute</a>
 </p>
 
 ---
 
-## Why I Built This
+## About the Project
 
-I got tired of uploading my resume to "free ATS checkers" that would analyze it, show me a score preview, then lock the actual results behind a $30/month paywall. Every single one of them. They all give you one generic score based on made-up algorithms that have nothing to do with how real applicant tracking systems work.
+ATS Screener is a free, open-source resume analysis tool that provides six ATS-style scoring profiles, optional job-description matching, and platform-specific suggestions. Resume files are parsed in the browser and are not uploaded to the server.
 
-The thing is, real ATS platforms don't all evaluate resumes the same way. Taleo does strict literal keyword matching. Greenhouse doesn't auto-score at all. iCIMS uses ML-based semantic matching. A single "ATS score" is meaningless if it doesn't tell you which system you're up against.
-
-So I built ATS Screener to give students and job seekers what those paid tools won't: **6 honest scores from 6 real platforms**, completely free, completely open source. No paywall, no upsell, no "premium tier" hiding your results. Create a free account and start scanning. Your resume file is parsed entirely in your browser and never uploaded to any server.
-
-> Built by [Sunny Patel](https://sunnypatel.net), a student who got tired of paying for meaningless ATS scores.
+This repository is maintained at [BhanuPrakash2250/ats-screener](https://github.com/BhanuPrakash2250/ats-screener). The original project was created by [Sunny Patel](https://sunnypatel.net); see the [MIT license](LICENSE) for copyright and license terms.
 
 > [!CAUTION]
 > This is a independent research project and is **not intended to defame, misrepresent, or make claims about any ATS platform or vendor**. All scoring simulations are approximations based on publicly available documentation, community reports, and general industry knowledge. They do not reflect the actual proprietary algorithms of any platform. ATS Screener is not affiliated with or endorsed by Workday, Oracle (Taleo), iCIMS, Greenhouse, Lever, SAP (SuccessFactors), or any other ATS vendor. The goal is to help students and job seekers get a general sense of how their resume might perform across different types of resume screening approaches used by leading HCM providers.
@@ -92,7 +88,7 @@ Each profile is based on research into the platform's documented parsing and mat
 ## Quick Start
 
 ```bash
-git clone https://github.com/sunnypatell/ats-screener.git
+git clone https://github.com/BhanuPrakash2250/ats-screener.git
 cd ats-screener
 pnpm install
 ```
@@ -173,4 +169,4 @@ See [SECURITY.md](SECURITY.md) for vulnerability reporting. Resume files are par
 
 ## License
 
-[MIT](LICENSE) - [Sunny Patel](https://sunnypatel.net)
+[MIT](LICENSE) - original project copyright [Sunny Patel](https://sunnypatel.net)
